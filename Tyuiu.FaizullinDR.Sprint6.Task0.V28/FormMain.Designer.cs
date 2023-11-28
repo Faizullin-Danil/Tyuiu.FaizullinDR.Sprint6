@@ -36,6 +36,7 @@ namespace Tyuiu.FaizullinDR.Sprint6.Task0.V28
             this.groupBoxOutPut_FDR = new System.Windows.Forms.GroupBox();
             this.textBoxResult_FDR = new System.Windows.Forms.TextBox();
             this.buttonPushMe_FDR = new System.Windows.Forms.Button();
+            this.buttonInfo_FDR = new System.Windows.Forms.Button();
             this.groupBoxTask_FDR.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxFormula_FDR)).BeginInit();
             this.groupBoxOutPut_FDR.SuspendLayout();
@@ -80,7 +81,7 @@ namespace Tyuiu.FaizullinDR.Sprint6.Task0.V28
             // 
             // buttonPushMe_FDR
             // 
-            this.buttonPushMe_FDR.Location = new System.Drawing.Point(461, 206);
+            this.buttonPushMe_FDR.Location = new System.Drawing.Point(511, 206);
             this.buttonPushMe_FDR.Name = "buttonPushMe_FDR";
             this.buttonPushMe_FDR.Size = new System.Drawing.Size(120, 57);
             this.buttonPushMe_FDR.TabIndex = 4;
@@ -88,11 +89,22 @@ namespace Tyuiu.FaizullinDR.Sprint6.Task0.V28
             this.buttonPushMe_FDR.UseVisualStyleBackColor = true;
             this.buttonPushMe_FDR.Click += new System.EventHandler(this.buttonPushMe_Click);
             // 
+            // buttonInfo_FDR
+            // 
+            this.buttonInfo_FDR.Location = new System.Drawing.Point(430, 206);
+            this.buttonInfo_FDR.Name = "buttonInfo_FDR";
+            this.buttonInfo_FDR.Size = new System.Drawing.Size(75, 57);
+            this.buttonInfo_FDR.TabIndex = 5;
+            this.buttonInfo_FDR.Text = "справка";
+            this.buttonInfo_FDR.UseVisualStyleBackColor = true;
+            this.buttonInfo_FDR.Click += new System.EventHandler(this.buttonInfo_FDR_Click);
+            // 
             // FormMain_FDR
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(672, 294);
+            this.Controls.Add(this.buttonInfo_FDR);
             this.Controls.Add(this.buttonPushMe_FDR);
             this.Controls.Add(this.groupBoxOutPut_FDR);
             this.Controls.Add(this.groupBoxTask_FDR);
@@ -117,6 +129,7 @@ namespace Tyuiu.FaizullinDR.Sprint6.Task0.V28
         private System.Windows.Forms.GroupBox groupBoxOutPut_FDR;
         private System.Windows.Forms.TextBox textBoxResult_FDR;
         private System.Windows.Forms.Button buttonPushMe_FDR;
+        private System.Windows.Forms.Button buttonInfo_FDR;
     }
 }
 

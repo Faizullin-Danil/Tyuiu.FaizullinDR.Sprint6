@@ -28,5 +28,10 @@ namespace Tyuiu.FaizullinDR.Sprint6.Task0.V28
             DataService ds = new DataService();
             textBoxResult_FDR.Text = Convert.ToString(ds.Calculate(3));
         }
+
+        private void buttonInfo_FDR_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Таск 0 выполнил студент группы ИИПБ-23-3 Файзуллин Данил Рамилевич");
+        }
     }
 }
