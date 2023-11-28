@@ -16,7 +16,7 @@ namespace Tyuiu.FaizullinDR.Sprint6.Task1.V14
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new FormMain());
+            Application.Run(new Form1());
         }
     }
 }
