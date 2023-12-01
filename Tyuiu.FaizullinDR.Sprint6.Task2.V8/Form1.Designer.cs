@@ -34,6 +34,9 @@ namespace Tyuiu.FaizullinDR.Sprint6.Task2.V8
             System.Windows.Forms.DataVisualization.Charting.Legend legend1 = new System.Windows.Forms.DataVisualization.Charting.Legend();
             System.Windows.Forms.DataVisualization.Charting.Series series1 = new System.Windows.Forms.DataVisualization.Charting.Series();
             this.groupBoxOutPut_FDR = new System.Windows.Forms.GroupBox();
+            this.dataGridViewResult = new System.Windows.Forms.DataGridView();
+            this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.labelResult_FDR = new System.Windows.Forms.Label();
             this.buttonInfo_FDR = new System.Windows.Forms.Button();
             this.buttonDone_FDR = new System.Windows.Forms.Button();
@@ -46,15 +49,12 @@ namespace Tyuiu.FaizullinDR.Sprint6.Task2.V8
             this.labelTask2_FDR = new System.Windows.Forms.Label();
             this.pictureBoxTask_FDR = new System.Windows.Forms.PictureBox();
             this.labelTask_FDR = new System.Windows.Forms.Label();
-            this.dataGridViewResult = new System.Windows.Forms.DataGridView();
-            this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.chartResult = new System.Windows.Forms.DataVisualization.Charting.Chart();
             this.groupBoxOutPut_FDR.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridViewResult)).BeginInit();
             this.groupBoxInPut_FDR.SuspendLayout();
             this.groupBoxTask_FDR.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxTask_FDR)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridViewResult)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.chartResult)).BeginInit();
             this.SuspendLayout();
             // 
@@ -68,6 +68,35 @@ namespace Tyuiu.FaizullinDR.Sprint6.Task2.V8
             this.groupBoxOutPut_FDR.TabIndex = 14;
             this.groupBoxOutPut_FDR.TabStop = false;
             this.groupBoxOutPut_FDR.Text = "Вывод данных";
+            // 
+            // dataGridViewResult
+            // 
+            this.dataGridViewResult.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridViewResult.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.Column1,
+            this.Column2});
+            this.dataGridViewResult.Location = new System.Drawing.Point(0, 38);
+            this.dataGridViewResult.Name = "dataGridViewResult";
+            this.dataGridViewResult.RowHeadersVisible = false;
+            this.dataGridViewResult.RowHeadersWidth = 51;
+            this.dataGridViewResult.RowTemplate.Height = 24;
+            this.dataGridViewResult.Size = new System.Drawing.Size(149, 393);
+            this.dataGridViewResult.TabIndex = 1;
+            this.dataGridViewResult.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
+            // 
+            // Column1
+            // 
+            this.Column1.HeaderText = "X";
+            this.Column1.MinimumWidth = 6;
+            this.Column1.Name = "Column1";
+            this.Column1.Width = 50;
+            // 
+            // Column2
+            // 
+            this.Column2.HeaderText = "F(X)";
+            this.Column2.MinimumWidth = 6;
+            this.Column2.Name = "Column2";
+            this.Column2.Width = 50;
             // 
             // labelResult_FDR
             // 
@@ -186,35 +215,6 @@ namespace Tyuiu.FaizullinDR.Sprint6.Task2.V8
             this.labelTask_FDR.TabIndex = 0;
             this.labelTask_FDR.Text = "Написать программу которая выводит выводит таблицу значений функции:";
             // 
-            // dataGridViewResult
-            // 
-            this.dataGridViewResult.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridViewResult.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.Column1,
-            this.Column2});
-            this.dataGridViewResult.Location = new System.Drawing.Point(0, 38);
-            this.dataGridViewResult.Name = "dataGridViewResult";
-            this.dataGridViewResult.RowHeadersVisible = false;
-            this.dataGridViewResult.RowHeadersWidth = 51;
-            this.dataGridViewResult.RowTemplate.Height = 24;
-            this.dataGridViewResult.Size = new System.Drawing.Size(149, 393);
-            this.dataGridViewResult.TabIndex = 1;
-            this.dataGridViewResult.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
-            // 
-            // Column1
-            // 
-            this.Column1.HeaderText = "X";
-            this.Column1.MinimumWidth = 6;
-            this.Column1.Name = "Column1";
-            this.Column1.Width = 50;
-            // 
-            // Column2
-            // 
-            this.Column2.HeaderText = "F(X)";
-            this.Column2.MinimumWidth = 6;
-            this.Column2.Name = "Column2";
-            this.Column2.Width = 50;
-            // 
             // chartResult
             // 
             chartArea1.Name = "ChartArea1";
@@ -248,15 +248,15 @@ namespace Tyuiu.FaizullinDR.Sprint6.Task2.V8
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.MaximizeBox = false;
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "Спринт 6 | Таск 2 | Вариант 8 | Файзуллин Д. Р.";
             this.groupBoxOutPut_FDR.ResumeLayout(false);
             this.groupBoxOutPut_FDR.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridViewResult)).EndInit();
             this.groupBoxInPut_FDR.ResumeLayout(false);
             this.groupBoxInPut_FDR.PerformLayout();
             this.groupBoxTask_FDR.ResumeLayout(false);
             this.groupBoxTask_FDR.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxTask_FDR)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridViewResult)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.chartResult)).EndInit();
             this.ResumeLayout(false);
 
