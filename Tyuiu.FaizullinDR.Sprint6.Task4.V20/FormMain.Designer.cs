@@ -30,11 +30,12 @@ namespace Tyuiu.FaizullinDR.Sprint6.Task4.V20
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormMain));
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea7 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend7 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series7 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            System.Windows.Forms.DataVisualization.Charting.Title title7 = new System.Windows.Forms.DataVisualization.Charting.Title();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea1 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend1 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series1 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.Title title1 = new System.Windows.Forms.DataVisualization.Charting.Title();
             this.groupBoxOutPut_FDR = new System.Windows.Forms.GroupBox();
+            this.textBoxResult_FDR = new System.Windows.Forms.TextBox();
             this.labelResult_FDR = new System.Windows.Forms.Label();
             this.buttonInfo_FDR = new System.Windows.Forms.Button();
             this.buttonDone_FDR = new System.Windows.Forms.Button();
@@ -49,7 +50,6 @@ namespace Tyuiu.FaizullinDR.Sprint6.Task4.V20
             this.labelTask_FDR = new System.Windows.Forms.Label();
             this.chartResult_FDR = new System.Windows.Forms.DataVisualization.Charting.Chart();
             this.buttonSave_FDR = new System.Windows.Forms.Button();
-            this.textBoxResult_FDR = new System.Windows.Forms.TextBox();
             this.groupBoxOutPut_FDR.SuspendLayout();
             this.groupBoxInPut_FDR.SuspendLayout();
             this.groupBoxTask_FDR.SuspendLayout();
@@ -69,6 +69,18 @@ namespace Tyuiu.FaizullinDR.Sprint6.Task4.V20
             this.groupBoxOutPut_FDR.TabIndex = 19;
             this.groupBoxOutPut_FDR.TabStop = false;
             this.groupBoxOutPut_FDR.Text = "Вывод данных";
+            // 
+            // textBoxResult_FDR
+            // 
+            this.textBoxResult_FDR.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left)));
+            this.textBoxResult_FDR.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.textBoxResult_FDR.Location = new System.Drawing.Point(3, 18);
+            this.textBoxResult_FDR.Multiline = true;
+            this.textBoxResult_FDR.Name = "textBoxResult_FDR";
+            this.textBoxResult_FDR.ReadOnly = true;
+            this.textBoxResult_FDR.Size = new System.Drawing.Size(343, 525);
+            this.textBoxResult_FDR.TabIndex = 1;
             // 
             // labelResult_FDR
             // 
@@ -197,24 +209,24 @@ namespace Tyuiu.FaizullinDR.Sprint6.Task4.V20
             this.chartResult_FDR.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            chartArea7.Name = "ChartArea1";
-            this.chartResult_FDR.ChartAreas.Add(chartArea7);
-            legend7.Enabled = false;
-            legend7.Name = "Legend1";
-            this.chartResult_FDR.Legends.Add(legend7);
+            chartArea1.Name = "ChartArea1";
+            this.chartResult_FDR.ChartAreas.Add(chartArea1);
+            legend1.Enabled = false;
+            legend1.Name = "Legend1";
+            this.chartResult_FDR.Legends.Add(legend1);
             this.chartResult_FDR.Location = new System.Drawing.Point(370, 138);
             this.chartResult_FDR.Name = "chartResult_FDR";
-            series7.ChartArea = "ChartArea1";
-            series7.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Spline;
-            series7.Legend = "Legend1";
-            series7.Name = "Series1";
-            this.chartResult_FDR.Series.Add(series7);
+            series1.ChartArea = "ChartArea1";
+            series1.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Spline;
+            series1.Legend = "Legend1";
+            series1.Name = "Series1";
+            this.chartResult_FDR.Series.Add(series1);
             this.chartResult_FDR.Size = new System.Drawing.Size(841, 543);
             this.chartResult_FDR.TabIndex = 20;
             this.chartResult_FDR.Text = "chart1";
-            title7.Name = "Title";
-            title7.Text = "График функции";
-            this.chartResult_FDR.Titles.Add(title7);
+            title1.Name = "Title";
+            title1.Text = "График функции";
+            this.chartResult_FDR.Titles.Add(title1);
             // 
             // buttonSave_FDR
             // 
@@ -226,18 +238,6 @@ namespace Tyuiu.FaizullinDR.Sprint6.Task4.V20
             this.buttonSave_FDR.Text = "Сохранить";
             this.buttonSave_FDR.UseVisualStyleBackColor = false;
             this.buttonSave_FDR.Click += new System.EventHandler(this.buttonSave_FDR_Click);
-            // 
-            // textBoxResult_FDR
-            // 
-            this.textBoxResult_FDR.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left)));
-            this.textBoxResult_FDR.BackColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.textBoxResult_FDR.Location = new System.Drawing.Point(3, 18);
-            this.textBoxResult_FDR.Multiline = true;
-            this.textBoxResult_FDR.Name = "textBoxResult_FDR";
-            this.textBoxResult_FDR.ReadOnly = true;
-            this.textBoxResult_FDR.Size = new System.Drawing.Size(343, 525);
-            this.textBoxResult_FDR.TabIndex = 1;
             // 
             // FormMain
             // 
@@ -254,6 +254,7 @@ namespace Tyuiu.FaizullinDR.Sprint6.Task4.V20
             this.Name = "FormMain";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
             this.Text = "Спринт 6 | Таск 4 | Вариант 20 | Файзуллин Д. Р.";
+            this.Load += new System.EventHandler(this.FormMain_Load);
             this.groupBoxOutPut_FDR.ResumeLayout(false);
             this.groupBoxOutPut_FDR.PerformLayout();
             this.groupBoxInPut_FDR.ResumeLayout(false);

@@ -91,5 +91,10 @@ namespace Tyuiu.FaizullinDR.Sprint6.Task4.V20
         {
             MessageBox.Show("Таск 4 выполнил студент группы ИИПБ-23-3 Файзуллин Данил Рамилевич","Справка",MessageBoxButtons.OK,MessageBoxIcon.Information);
         }
+
+        private void FormMain_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
