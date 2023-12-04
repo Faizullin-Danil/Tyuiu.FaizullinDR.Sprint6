@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Tyuiu.FaizullinDR.Sprint6.Task5.V11
 {
-    public partial class Form1 : Form
+    public partial class FormMain : Form
     {
-        public Form1()
+        public FormMain()
         {
             InitializeComponent();
         }

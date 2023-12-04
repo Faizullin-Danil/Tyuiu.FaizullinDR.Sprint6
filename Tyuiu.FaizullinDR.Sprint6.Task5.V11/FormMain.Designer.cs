@@ -1,7 +1,7 @@
 ﻿
 namespace Tyuiu.FaizullinDR.Sprint6.Task5.V11
 {
-    partial class Form1
+    partial class FormMain
     {
         /// <summary>
         /// Required designer variable.

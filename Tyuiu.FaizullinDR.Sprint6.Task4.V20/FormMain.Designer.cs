@@ -30,10 +30,10 @@ namespace Tyuiu.FaizullinDR.Sprint6.Task4.V20
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormMain));
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea5 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend5 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series5 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            System.Windows.Forms.DataVisualization.Charting.Title title5 = new System.Windows.Forms.DataVisualization.Charting.Title();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea7 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend7 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series7 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.Title title7 = new System.Windows.Forms.DataVisualization.Charting.Title();
             this.groupBoxOutPut_FDR = new System.Windows.Forms.GroupBox();
             this.labelResult_FDR = new System.Windows.Forms.Label();
             this.buttonInfo_FDR = new System.Windows.Forms.Button();
@@ -197,24 +197,24 @@ namespace Tyuiu.FaizullinDR.Sprint6.Task4.V20
             this.chartResult_FDR.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            chartArea5.Name = "ChartArea1";
-            this.chartResult_FDR.ChartAreas.Add(chartArea5);
-            legend5.Enabled = false;
-            legend5.Name = "Legend1";
-            this.chartResult_FDR.Legends.Add(legend5);
+            chartArea7.Name = "ChartArea1";
+            this.chartResult_FDR.ChartAreas.Add(chartArea7);
+            legend7.Enabled = false;
+            legend7.Name = "Legend1";
+            this.chartResult_FDR.Legends.Add(legend7);
             this.chartResult_FDR.Location = new System.Drawing.Point(370, 138);
             this.chartResult_FDR.Name = "chartResult_FDR";
-            series5.ChartArea = "ChartArea1";
-            series5.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Spline;
-            series5.Legend = "Legend1";
-            series5.Name = "Series1";
-            this.chartResult_FDR.Series.Add(series5);
+            series7.ChartArea = "ChartArea1";
+            series7.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Spline;
+            series7.Legend = "Legend1";
+            series7.Name = "Series1";
+            this.chartResult_FDR.Series.Add(series7);
             this.chartResult_FDR.Size = new System.Drawing.Size(841, 543);
             this.chartResult_FDR.TabIndex = 20;
             this.chartResult_FDR.Text = "chart1";
-            title5.Name = "Title";
-            title5.Text = "График функции";
-            this.chartResult_FDR.Titles.Add(title5);
+            title7.Name = "Title";
+            title7.Text = "График функции";
+            this.chartResult_FDR.Titles.Add(title7);
             // 
             // buttonSave_FDR
             // 
@@ -252,8 +252,8 @@ namespace Tyuiu.FaizullinDR.Sprint6.Task4.V20
             this.Controls.Add(this.groupBoxInPut_FDR);
             this.Controls.Add(this.groupBoxTask_FDR);
             this.Name = "FormMain";
-            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Form1";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
+            this.Text = "Спринт 6 | Таск 4 | Вариант 20 | Файзуллин Д. Р.";
             this.groupBoxOutPut_FDR.ResumeLayout(false);
             this.groupBoxOutPut_FDR.PerformLayout();
             this.groupBoxInPut_FDR.ResumeLayout(false);
