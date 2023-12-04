@@ -49,7 +49,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tyuiu.FaizullinDR.Sprint6.T
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tyuiu.FaizullinDR.Sprint6.Task5.V11.Lib", "Tyuiu.FaizullinDR.Sprint6.Task5.V11.Lib\Tyuiu.FaizullinDR.Sprint6.Task5.V11.Lib.csproj", "{D03E4261-CB59-4748-B719-C0E20132F91F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "yuiu.FaizullinDR.Sprint6.Task5.V11.Test", "yuiu.FaizullinDR.Sprint6.Task5.V11.Test\yuiu.FaizullinDR.Sprint6.Task5.V11.Test.csproj", "{C8A08070-EB85-4A39-96E9-F7FA1ED5B7E5}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tyuiu.FaizullinDR.Sprint6.Task5.V11.Test", "yuiu.FaizullinDR.Sprint6.Task5.V11.Test\Tyuiu.FaizullinDR.Sprint6.Task5.V11.Test.csproj", "{C8A08070-EB85-4A39-96E9-F7FA1ED5B7E5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
